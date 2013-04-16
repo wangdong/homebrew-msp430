@@ -7,8 +7,8 @@ class Msp430Gdb < Formula
   sha256  '3c24dde332e33bfe2d5980c726d76224ebf8304278112a07bf701f8d2145d9bc'
   head 'git://mspgcc.git.sourceforge.net/gitroot/mspgcc/gdb'
 
-  depends_on 'tduehr/msp430/msp430mcu'
-  depends_on 'tduehr/msp430/msp430-gcc'
+  depends_on 'wangdong/msp430/msp430mcu'
+  depends_on 'wangdong/msp430/msp430-gcc'
 
   # --enable-build-with-cxx build with C++ compiler instead of C compiler
   option 'enable-build-with-cxx', 'build with C++ compiler instead of C compiler [untested]'

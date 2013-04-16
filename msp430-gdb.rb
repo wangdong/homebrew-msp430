@@ -15,7 +15,7 @@ class Msp430Gdb < Formula
 
   def patches
     if !build.head?
-      {:p1 => 'http://sourceforge.net/projects/mspgcc/files/Patches/gdb-7.2a/msp430-gdb-7.2a-20111205.patch'}
+      {:p1 => 'https://github.com/wangdong/mspgcc/raw/master/msp430-gdb.patch'}
     end
   end
 

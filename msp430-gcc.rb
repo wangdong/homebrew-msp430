@@ -7,8 +7,8 @@ class Msp430Gcc < Formula
   sha256  'e8f5853d4eec2f5ebaf8a72ae4d53c436aacf98153b2499f8635b48c4718a093'
   head 'git://mspgcc.git.sourceforge.net/gitroot/mspgcc/gcc'
 
-  depends_on 'tduehr/msp430/msp430mcu'
-  depends_on 'tduehr/msp430/msp430-binutils'
+  depends_on 'wangdong/msp430/msp430mcu'
+  depends_on 'wangdong/msp430/msp430-binutils'
   depends_on 'gmp'
   depends_on 'mpfr'
   depends_on 'libmpc'

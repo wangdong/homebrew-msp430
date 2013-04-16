@@ -1,9 +1,7 @@
 homebrew-msp430
 ===============
 
-MSP430 GCC homebrew formulas
-
-Based on tduehr/msp430, it should work on Lion with XCode 4.6.
+MSP430 GCC homebrew formulas, it should work on Lion with XCode 4.6.
 
 `brew tap wangdong/msp430`
 
